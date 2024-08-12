@@ -1,0 +1,11 @@
+.primary-footer {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 2rem;
+	background: linear-gradient(180deg, transparent, var(--clr-neutral-1000));
+}
+
+.copyright {
+	color: var(--clr-neutral-200);
+}

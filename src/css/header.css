@@ -1,0 +1,24 @@
+.primary-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 1rem;
+	padding: 2rem;
+}
+
+@media (max-width: 500px) {
+	.primary-header {
+		padding: 1rem;
+	}
+}
+
+.primary-header__logo {
+	font-size: 1.5rem;
+	color: var(--clr-neutral-200);
+	text-decoration: none;
+}
+
+.primary-header__logo:hover {
+	text-decoration: underline;
+	text-decoration-color: var(--clr-primary-green);
+}

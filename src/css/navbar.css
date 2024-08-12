@@ -1,0 +1,30 @@
+.primary-nav__list {
+	list-style: none;
+	display: flex;
+	gap: 1rem;
+}
+
+.primary-nav__link {
+	color: var(--clr-neutral-400);
+	text-decoration: none;
+}
+
+.primary-nav__link:hover {
+	text-decoration: underline;
+	text-decoration-color: var(--clr-neutral-200);
+}
+
+li:nth-child(1)::before {
+	content: "01. ";
+	color: var(--clr-primary-green);
+}
+
+li:nth-child(2)::before {
+	content: "02. ";
+	color: var(--clr-primary-green);
+}
+
+li:nth-child(3)::before {
+	content: "03. ";
+	color: var(--clr-primary-green);
+}
